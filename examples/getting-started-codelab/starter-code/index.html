@@ -51,7 +51,9 @@
         <div id="blocklyDiv" style="height: 480px; width: 400px"></div>
       </div>
     </main>
-
+    <!-- order of scripts is important, dependencies should be on top of dependents-->
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+    <script src="scripts/sound_blocks.js"></script>
     <script src="scripts/music_maker.js"></script>
     <script src="scripts/main.js"></script>
   </body>
